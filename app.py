@@ -3,6 +3,7 @@ from flask import *
 import mysql.connector
 import mysql.connector.pooling
 
+# pip install flask
 # pip install flask_cors
 from flask_cors import CORS
 
@@ -25,8 +26,10 @@ dbpool = mysql.connector.pooling.MySQLConnectionPool(
     pool_size=5,
     pool_reset_session=True,   # 是否重置資料庫connection pool
     host="localhost",
-    user="awstest",
-    password="a12345678",
+    user='root',
+    password='',
+    # user="awstest",
+    # password="a12345678",
     database="dbtaipei_day_trip"
 )
 

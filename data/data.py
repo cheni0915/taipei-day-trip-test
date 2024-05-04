@@ -44,7 +44,7 @@ for e in data:
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="12345678",
+    password="",
     database="dbtaipei_day_trip"
 )
 

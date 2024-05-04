@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS `dbtaipei_day_trip`
-/*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */
+/*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE = utf8mb4_general_ci */
 /*!80016 DEFAULT ENCRYPTION='N' */
 ;
 
@@ -74,7 +74,7 @@ CREATE TABLE `data` (
   `avEnd` date DEFAULT NULL,
   `address` text,
   PRIMARY KEY (`_id`)
-) ENGINE = InnoDB AUTO_INCREMENT = 83 DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 83 DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_general_ci;
 
 /*!40101 SET character_set_client = @saved_cs_client */
 ;
